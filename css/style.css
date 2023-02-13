@@ -102,28 +102,33 @@ body {
     
 }
 .col-1{
-    height: 973;
+    height: 973px;
     width: 25rem;
     background-color: rgb(35, 39, 42);
     margin-top: 10rem;
-    margin-left: 3rem;
+    
     
 }
 .col-2{
-    height: 973;
+    height: 973px;
     width: 25rem;
     background-color: rgb(35, 39, 42);
     margin-top: 10rem;
 }
 .col-3{
-    height: 973;
+    height: 973px;
     width: 25rem;
     background-color: rgb(35, 39, 42);
     margin-top: 10rem;
 }
 
 .col-4{
+    height: 25rem;
+    width: 95%;
+    background-color: rgb(35, 39, 42);
+    margin-left: 2.2rem;
     
+
 }
 
 
