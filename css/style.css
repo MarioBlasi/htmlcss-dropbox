@@ -34,31 +34,61 @@ body {
     height: 5rem;
     width: 2000px;
     background-color:var(--z-white-header);
-    background-color: #9c0a6b3d;
-    
 }
 .bar{
     width: 2000px;
     display: flex;
     position: fixed;
-    background-color: #0a149c65;
 }
 .flex_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-
+/* -----------------left header-------↓↓↓↓↓------*/
 .left_header {
     height: 5rem;
-    width: 50%;
-    background-color: #9c810a2f;
-   
+    width: 50%;  
 }
+.left-logo{
+    height: 3rem;
+    width: 25%;
+    background-image: url(/img/logo-small.png);
+    background-repeat: no-repeat;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.text-sx{
+    height: 2rem;
+    width: 50%;
+    display: flex;
+    margin-left: 15rem;
+    margin-top: -3rem;
+    justify-content:space-evenly;
+}
+/* -----------------right header-------↓↓↓↓↓------*/
 .right_header{
     height: 5rem;
     width: 50%;
-    background-color: #ffd9302f;
+    background-color:var(--z-white-header)
 }
+
+.text-dx{
+    height: 2rem;
+    width: 40%;
+    display: flex;
+    margin-left: 15rem;
+    margin-top: -3rem;
+    justify-content:space-evenly;
+}
+.btn{
+    margin-top: 2rem;
+    background-color: var(--z--blue-button);
+    color: black;
+ 
+    border: none;
+   
+}
+
 /* -----------------NAV--section-------↓↓↓↓↓------*/
 #app_nav{
     height: 830px;
@@ -267,6 +297,7 @@ body {
     background-color: rgb(87, 67, 87);
     display: flex;
     justify-content: center;
+    list-style-type: none;
     
 }
 .vertical_box_dropbox,
@@ -281,6 +312,7 @@ body {
     color: white;
     border: 2px solid red;
     padding: 5rem;
+    list-style-type: none;
 }
 .bottom_footer{
     background-color: rgb(209, 23, 209);
