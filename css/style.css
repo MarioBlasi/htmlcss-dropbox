@@ -160,8 +160,7 @@ body {
     height: 80px;
 }
 .column{
-    
-    height:1200px;
+    height:1350px;
     background-color: rgba(255, 0, 0, 0.315);
     display: flex;
     flex-wrap: wrap;
@@ -178,6 +177,19 @@ body {
     background-color:lightslategray;
     border: 1px solid red;
     margin: 2rem;
-    
 }
-
+/* -----------------MAIN--section-4------↓↓↓↓↓------*/
+.section-4{
+    width: 2000px;
+    height: 310px;
+    background-color: rgba(245, 188, 82, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-drop{
+    width: 1437px;
+    height: 225px;
+    background-color: rgba(16, 167, 36, 0.384);
+}
+/* -----------------MAIN--section-5------↓↓↓↓↓------*/
