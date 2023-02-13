@@ -283,5 +283,7 @@ body {
     padding: 5rem;
 }
 .bottom_footer{
-
+    background-color: rgb(209, 23, 209);
+    width: 2000px;
+    height: 100px;
 }
