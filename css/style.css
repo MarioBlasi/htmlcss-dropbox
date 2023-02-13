@@ -257,11 +257,16 @@ body {
     background-color: rgba(218, 9, 9, 0.384);
 }
 /* -----------------FOOTER------↓↓↓↓↓------*/
+
+#app_footer{
+    background-color: black;
+}
 .top_footer{
     width: 2000px;
-    height: 750px;
-    background-color: rgb(17, 16, 17);
+    height: 800px;
+    background-color: rgb(87, 67, 87);
     display: flex;
+    justify-content: center;
     
 }
 .vertical_box_dropbox,
@@ -269,11 +274,14 @@ body {
 .vertical_box_azienda,
 .vertical_box_supporto,
 .vertical_box_community{
-    height: 500px;
-    width: 1437px;
+    height: 600px;
+    width: 300px;
     background-color: rgb(66, 124, 153);
     margin-top: 4rem;
     color: white;
     border: 2px solid red;
-    margin: 5rem;
+    padding: 5rem;
+}
+.bottom_footer{
+
 }
