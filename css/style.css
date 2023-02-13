@@ -59,7 +59,7 @@ body {
     width: 50%;
     background-color: #ffd9302f;
 }
-/* -----------------NAV--section-1-------↓↓↓↓↓------*/
+/* -----------------NAV--section-------↓↓↓↓↓------*/
 #app_nav{
     height: 830px;
     width: 100%;
@@ -85,8 +85,7 @@ body {
 #app_main{
     height: 6554px;
     width: 100%;
-    border: 5px solid rgb(1, 30, 63);
-   
+    background-color: #ffd830;
 }
 .container{
     background-color: rgba(212, 101, 197, 0.384);
@@ -127,8 +126,26 @@ body {
     width: 95%;
     background-color: rgb(35, 39, 42);
     margin-left: 2.2rem;
-    
-
 }
-
-
+/* -----------------MAIN--section-2------↓↓↓↓↓------*/
+.section-2{
+    background-color: rgba(45, 143, 218, 0.719);
+    height: 1000px;
+    width: 1437px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.left-image{
+    height: 50rem;
+    width: 50%;
+    background-color: #ffd830;
+   
+   
+}
+.right-text{
+    height: 50rem;
+    width: 50%;
+    background-color: #37ff30;
+}
