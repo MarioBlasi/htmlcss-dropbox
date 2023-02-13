@@ -11,9 +11,9 @@ body {
 }
 
 :root{
-    --z-white-header:(255, 255, 255);
-    --z--blue-button:(0, 97, 255);
-    --z-celeste-main:(180, 208, 231);
+    --z-white-header:#ffffff;
+    --z--blue-button:#0061ff;
+    --z-celeste-nav:#b4d0e7;
     /*  designit colors ↓↓↓↓↓ */
 
     --z-green-chiaro:(209, 233, 205);
@@ -47,7 +47,8 @@ body {
 /* -----------------left header-------↓↓↓↓↓------*/
 .left_header {
     height: 5rem;
-    width: 50%;  
+    width: 50%; 
+    background-color:var(--z-white-header)
 }
 .left-logo{
     height: 3rem;
@@ -74,40 +75,75 @@ body {
 
 .text-dx{
     height: 2rem;
-    width: 40%;
+    width: 50%;
     display: flex;
-    margin-left: 15rem;
-    margin-top: -3rem;
+    margin-left: 20rem;
+    margin-top: -2rem;
     justify-content:space-evenly;
 }
 .btn{
-    margin-top: 2rem;
     background-color: var(--z--blue-button);
-    color: black;
- 
+    color: white;
+    width: 5rem;
+    height: 2.5rem;
     border: none;
-   
+    margin-left: 50rem;
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: bold;
 }
 
 /* -----------------NAV--section-------↓↓↓↓↓------*/
 #app_nav{
-    height: 830px;
+    height: 810px;
     width: 100%;
-    background-color: rgba(179, 93, 93, 0.322);
+    background-color: var(--z-celeste-nav)
 }
 .box-one{
     height: 830px;
     width: 1437px;
-    border: 1px solid red;
 }
 .title{
+    margin-top: 3rem;
+    font-weight: bold;
     height: 297px;
     text-align: center;
-    border: 5px solid rgb(0, 255, 21);
+    font-size: 360%;
 }
 .text-box{
-    height: 534px;
-    border: 5px solid rgb(22, 110, 211);
+    width: 480px;
+    height: 480px;
+    font-size: x-large;
+    padding: 1.5rem;
+    margin-left: 10rem;
+}
+.prova-gratuita{
+    background-color: var(--z--blue-button);
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    margin-top: 2rem;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 2rem;
+    font-size: 200%;
+}
+.jumbo-img{
+    width: 900px;
+    height: 600px;
+    margin-left: 27.5rem;
+    margin-top: -28rem;  
+}
+img{
+    max-width: 100%;
+    margin-top: 2rem;
+    box-shadow:gray;
 }
 
 /* -----------------MAIN--section-1-------↓↓↓↓↓------*/
@@ -116,6 +152,7 @@ body {
     height: 6554px;
     width: 100%;
     background-color: #ffd830;
+    
 }
 .container{
     background-color: rgba(212, 101, 197, 0.384);
