@@ -40,7 +40,6 @@ body {
 .bar{
     width: 2000px;
     display: flex;
-    
     position: fixed;
     background-color: #0a149c65;
 }
@@ -62,12 +61,12 @@ body {
 }
 /* -----------------NAV--section-1-------↓↓↓↓↓------*/
 #app_nav{
-    height: 1999px;
+    height: 830px;
     width: 100%;
     background-color: rgba(179, 93, 93, 0.322);
 }
 .box-one{
-    height: 1999px;
+    height: 830px;
     width: 1437px;
     border: 1px solid red;
 }
@@ -82,3 +81,49 @@ body {
 }
 
 /* -----------------MAIN--section-1-------↓↓↓↓↓------*/
+
+#app_main{
+    height: 6554px;
+    width: 100%;
+    border: 5px solid rgb(1, 30, 63);
+   
+}
+.container{
+    background-color: rgba(212, 101, 197, 0.384);
+    height: 1800px;
+    width: 1437px;
+}
+.small-container{
+    height: 1322px;
+    background-color: rgba(83, 212, 137, 0.384);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.col-1{
+    height: 973;
+    width: 25rem;
+    background-color: rgb(35, 39, 42);
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+.col-2{
+    height: 973;
+    width: 25rem;
+    background-color: rgb(35, 39, 42);
+    margin-top: 10rem;
+}
+.col-3{
+    height: 973;
+    width: 25rem;
+    background-color: rgb(35, 39, 42);
+    margin-top: 10rem;
+}
+
+.col-4{
+    
+}
+
+
