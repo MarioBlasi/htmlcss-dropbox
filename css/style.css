@@ -141,11 +141,43 @@ body {
     height: 50rem;
     width: 50%;
     background-color: #ffd830;
-   
-   
 }
 .right-text{
     height: 50rem;
     width: 50%;
     background-color: #37ff30;
 }
+/* -----------------MAIN--section-3------↓↓↓↓↓------*/
+
+.section-3{
+    width: 1437px;
+    height: 2000px;
+    background-color: rgba(83, 212, 137, 0.384);
+}
+.card-text{
+    border: 3px solid red;
+    background-color: rgba(218, 31, 155, 0.384);
+    height: 80px;
+}
+.column{
+    
+    height:1200px;
+    background-color: rgba(255, 0, 0, 0.315);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6{
+    width: 380px;
+    height: 550px;
+    background-color:lightslategray;
+    border: 1px solid red;
+    margin: 2rem;
+    
+}
+
