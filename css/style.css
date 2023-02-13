@@ -98,15 +98,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 .col-1{
     height: 973px;
     width: 25rem;
     background-color: rgb(35, 39, 42);
     margin-top: 10rem;
-    
-    
 }
 .col-2{
     height: 973px;
@@ -139,12 +136,12 @@ body {
 }
 .left-image{
     height: 50rem;
-    width: 50%;
+    width: 60%;
     background-color: #ffd830;
 }
 .right-text{
     height: 50rem;
-    width: 50%;
+    width: 40%;
     background-color: #37ff30;
 }
 /* -----------------MAIN--section-3------↓↓↓↓↓------*/
@@ -193,3 +190,90 @@ body {
     background-color: rgba(16, 167, 36, 0.384);
 }
 /* -----------------MAIN--section-5------↓↓↓↓↓------*/
+.section-5{
+    height: 664px;
+    width: 2000px;
+    border: 1px solid rgb(37, 40, 241);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cube-1,
+.cube-2,
+.cube-3 {
+    width:  665px;
+    height: 665px;
+    border: 1px solid rgb(197, 24, 197);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+/* -----------------CUBE N.1------↓↓↓↓↓------*/
+.small-cube-1,
+.small-cube-2,
+.small-cube-3,
+.small-cube-4 {
+    width:  331px;
+    height: 331px;
+    background-color: rgba(230, 21, 49, 0.384);
+    border: 1px solid rgb(197, 24, 197);
+}
+/* -----------------CUBE N.3------↓↓↓↓↓------*/
+.small-cube-5,
+.small-cube-6,
+.small-cube-7,
+.small-cube-8 {
+    width:  331px;
+    height: 331px;
+    background-color: rgba(230, 21, 49, 0.384);
+    border: 1px solid rgb(197, 24, 197);
+}
+/* -----------------MAIN--section-6------↓↓↓↓↓------*/
+.section-6{
+    width: 2000px;
+    height: 310px;
+    background-color: rgba(22, 170, 8, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.porta-drop{
+    width: 1437px;
+    height: 225px;
+    background-color: rgba(9, 48, 218, 0.384);
+}
+/* -----------------MAIN--section-7------↓↓↓↓↓------*/
+.section-7{
+    width: 2000px;
+    height: 750px;
+    background-color: rgba(51, 163, 145, 0.308);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.domande{
+    width: 1437px;
+    height: 500px;
+    background-color: rgba(218, 9, 9, 0.384);
+}
+/* -----------------FOOTER------↓↓↓↓↓------*/
+.top_footer{
+    width: 2000px;
+    height: 750px;
+    background-color: rgb(17, 16, 17);
+    display: flex;
+    
+}
+.vertical_box_dropbox,
+.vertical_box_prodotti,
+.vertical_box_azienda,
+.vertical_box_supporto,
+.vertical_box_community{
+    height: 500px;
+    width: 1437px;
+    background-color: rgb(66, 124, 153);
+    margin-top: 4rem;
+    color: white;
+    border: 2px solid red;
+    margin: 5rem;
+}
