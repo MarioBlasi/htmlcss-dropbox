@@ -40,7 +40,7 @@ body {
 .bar{
     width: 2000px;
     display: flex;
-    align-items: flex-start;
+    
     position: fixed;
     background-color: #0a149c65;
 }
@@ -71,3 +71,14 @@ body {
     width: 1437px;
     border: 1px solid red;
 }
+.title{
+    height: 297px;
+    text-align: center;
+    border: 5px solid rgb(0, 255, 21);
+}
+.text-box{
+    height: 534px;
+    border: 5px solid rgb(22, 110, 211);
+}
+
+/* -----------------MAIN--section-1-------↓↓↓↓↓------*/
