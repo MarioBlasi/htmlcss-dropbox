@@ -125,7 +125,6 @@ body {
     border: none;
     margin-top: 2rem;
     font-size: medium;
-    font-weight: bold;
     margin-bottom: 2rem;
 }
 .icon{
@@ -210,23 +209,32 @@ line-height:60px;
 
 /* -----------------MAIN--section-2------↓↓↓↓↓------*/
 .section-2{
-    background-color: rgba(45, 143, 218, 0.719);
     height: 1000px;
     width: 1437px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
 }
 .left-image{
     height: 50rem;
-    width: 60%;
-    background-color: #ffd830;
+    width: 50%;
+    background-image: url(/img/partner.png);
+    margin-left: 2rem;
 }
 .right-text{
     height: 50rem;
     width: 40%;
-    background-color: #37ff30;
+    font-size: x-large;
+    padding: 10rem;
+    padding-top: 5rem; 
+    padding-left: 2.5rem;
+}
+.trova-partner{
+    background-color: var(--z-white-header);
+    color: black;
+    width: 12rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    font-size: medium;
 }
 /* -----------------MAIN--section-3------↓↓↓↓↓------*/
 
