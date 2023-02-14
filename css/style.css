@@ -62,7 +62,7 @@ body {
     height: 2rem;
     width: 50%;
     display: flex;
-    margin-left: 15rem;
+    margin-left: 9rem;
     margin-top: -3rem;
     justify-content:space-evenly;
 }
@@ -115,7 +115,7 @@ body {
     height: 480px;
     font-size: x-large;
     padding: 1.5rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
 .prova-gratuita{
     background-color: var(--z--blue-button);
@@ -140,7 +140,7 @@ body {
     margin-left: 27.5rem;
     margin-top: -28rem;  
 }
-img{
+.jumbo-img >img{
     max-width: 100%;
     margin-top: 2rem;
     box-shadow:gray;
@@ -230,6 +230,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .card-1,
 .card-2,
 .card-3,
@@ -275,26 +276,15 @@ img{
     flex-wrap: wrap;
     justify-content:flex-end;
 }
-/* -----------------CUBE N.1------↓↓↓↓↓------*/
-.small-cube-1,
-.small-cube-2,
-.small-cube-3,
-.small-cube-4 {
+/* --------------small---CUBE ------↓↓↓↓↓------*/
+[class^="small-cube-"]
+{
     width:  331px;
     height: 331px;
     background-color: rgba(230, 21, 49, 0.384);
     border: 1px solid rgb(197, 24, 197);
 }
-/* -----------------CUBE N.3------↓↓↓↓↓------*/
-.small-cube-5,
-.small-cube-6,
-.small-cube-7,
-.small-cube-8 {
-    width:  331px;
-    height: 331px;
-    background-color: rgba(230, 21, 49, 0.384);
-    border: 1px solid rgb(197, 24, 197);
-}
+
 /* -----------------MAIN--section-6------↓↓↓↓↓------*/
 .section-6{
     width: 2000px;
@@ -330,29 +320,31 @@ img{
 }
 .top_footer{
     width: 2000px;
-    height: 800px;
-    background-color: rgb(87, 67, 87);
+    height: 600px;
+
     display: flex;
     justify-content: center;
-    list-style-type: none;
-    
 }
-.vertical_box_dropbox,
-.vertical_box_prodotti,
-.vertical_box_azienda,
-.vertical_box_supporto,
-.vertical_box_community{
+[class^="vertical_box_"]{
     height: 600px;
     width: 300px;
-    background-color: rgb(66, 124, 153);
-    margin-top: 4rem;
+    margin-top: 3rem;
     color: white;
-    border: 2px solid red;
     padding: 5rem;
+}
+h1{
+    margin-bottom: 2rem;
+}
+ul{
     list-style-type: none;
+    font-size: medium;
+    
 }
 .bottom_footer{
-    background-color: rgb(209, 23, 209);
-    width: 2000px;
+    width: 200px;
     height: 100px;
+    margin-top: -5rem;
+    margin-left: -70rem;
+    border-top: 3px solid white;
+    padding-top: 3rem;
 }
