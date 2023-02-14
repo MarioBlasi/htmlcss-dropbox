@@ -180,7 +180,7 @@ body {
     height: 973px;
     width: 25rem;
     border: 1px solid black;
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding: 3rem;
     line-height:45px;
 }
@@ -190,13 +190,24 @@ br{
 }
 h6{  
 font-size: medium;
+text-align: center;
+line-height:60px;
 }
 .col-4{
     height: 25rem;
     width: 95%;
     border: 1px solid black;
+    margin-top:-13rem;
     margin-left: 2.2rem;
+    line-height:35px;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
+.contatta-btn{
+    margin-left: 65rem;
+    margin-top:-14rem;
+}
+
 /* -----------------MAIN--section-2------↓↓↓↓↓------*/
 .section-2{
     background-color: rgba(45, 143, 218, 0.719);
