@@ -149,46 +149,55 @@ body {
 /* -----------------MAIN--section-1-------↓↓↓↓↓------*/
 
 #app_main{
-    height: 6554px;
+    height: 6600px;
     width: 100%;
-    background-color: #ffd830;
-    
+}
+.chekbox-text {
+    padding-top: 5rem;
+    padding-left: 2rem;
+
+}
+span{
+    margin-right: 0.5rem;
+    padding-right: 1rem;
 }
 .container{
-    background-color: rgba(212, 101, 197, 0.384);
+    background-color: var(--z-white-header);
     height: 1800px;
     width: 1437px;
 }
+
 .small-container{
     height: 1322px;
-    background-color: rgba(83, 212, 137, 0.384);
+    background-color: var(--z-white-header);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 .col-1{
     height: 973px;
     width: 25rem;
-    background-color: rgb(35, 39, 42);
-    margin-top: 10rem;
+    border: 1px solid black;
+    margin-top: 4rem;
 }
 .col-2{
     height: 973px;
     width: 25rem;
-    background-color: rgb(35, 39, 42);
-    margin-top: 10rem;
+    border: 1px solid black;
+    margin-top: 4rem;
 }
 .col-3{
     height: 973px;
     width: 25rem;
-    background-color: rgb(35, 39, 42);
-    margin-top: 10rem;
+    border: 1px solid black;
+    margin-top: 4rem;
 }
 
 .col-4{
     height: 25rem;
     width: 95%;
-    background-color: rgb(35, 39, 42);
+    border: 1px solid black;
     margin-left: 2.2rem;
 }
 /* -----------------MAIN--section-2------↓↓↓↓↓------*/
