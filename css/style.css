@@ -189,12 +189,14 @@ h6{
     line-height:60px;
 }
 .col-4{
+    height: 20rem;
     width: 95%;
     border: 1px solid black;
     margin-top: 3rem;
     margin-left: 2.2rem;
     line-height: 35px;
-    padding: 5rem;
+    padding: 2rem;
+    padding-top: 6rem;
 }
 .contatta-btn{
     margin-left: 65rem;
@@ -202,6 +204,9 @@ h6{
 }
 
 /* -----------------MAIN--section-2------↓↓↓↓↓------*/
+
+
+
 .section-2{
     width: 1437px;
     display: flex;
@@ -226,6 +231,10 @@ h6{
     font-size: medium;
     height: 3rem;
 }
+
+
+
+
 /* -----------------MAIN--section-3------↓↓↓↓↓------*/
 
 .section-3{
