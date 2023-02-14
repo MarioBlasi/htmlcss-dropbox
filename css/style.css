@@ -162,7 +162,6 @@ body {
     padding-right: 1rem;
 }
 .container{
-    background-color: var(--z-white-header);
     height: 1800px;
     width: 1437px;
 }
@@ -174,26 +173,23 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
-.col-1{
+.col-1,
+.col-2,
+.col-3
+{
     height: 973px;
     width: 25rem;
     border: 1px solid black;
     margin-top: 4rem;
-    
+    padding: 4rem;
 }
-.col-2{
-    height: 973px;
-    width: 25rem;
-    border: 1px solid black;
-    margin-top: 4rem;
+br{
+    width: 2rem;
+    height: 5rem;
 }
-.col-3{
-    height: 973px;
-    width: 25rem;
-    border: 1px solid black;
-    margin-top: 4rem;
+h6{  
+font-size: medium;
 }
-
 .col-4{
     height: 25rem;
     width: 95%;
