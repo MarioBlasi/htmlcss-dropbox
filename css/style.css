@@ -181,7 +181,8 @@ body {
     width: 25rem;
     border: 1px solid black;
     margin-top: 4rem;
-    padding: 4rem;
+    padding: 3rem;
+    line-height:45px;
 }
 br{
     width: 2rem;
