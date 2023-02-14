@@ -34,6 +34,7 @@ body {
     height: 5rem;
     width: 2000px;
     background-color:var(--z-white-header);
+    
 }
 .bar{
     width: 2000px;
@@ -160,22 +161,18 @@ body {
     padding-right: 1rem;
 }
 .container{
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
     width: 1437px;
 }
 /* -----------------small--container-------↓↓↓↓↓------*/
 .small-container{
-    height: 1322px;
     background-color: var(--z-white-header);
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 .col-1,
 .col-2,
 .col-3{
-   
-    
     width: 25rem;
     border: 1px solid black;
     margin-top: 2rem;
@@ -192,16 +189,12 @@ h6{
     line-height:60px;
 }
 .col-4{
-    width: 100%;
-
-    padding: 5px;
     width: 95%;
     border: 1px solid black;
-    margin-top:-13rem;
+    margin-top: 3rem;
     margin-left: 2.2rem;
-    line-height:35px;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    line-height: 35px;
+    padding: 5rem;
 }
 .contatta-btn{
     margin-left: 65rem;
@@ -221,7 +214,6 @@ h6{
     margin-left: 2rem;
 }
 .right-text{
-    
     width: 50%;
     font-size: x-large;
     padding: 6rem 2rem 10rem 4rem;
@@ -230,9 +222,9 @@ h6{
     background-color: var(--z-white-header);
     color: black;
     width: 12rem;
-    height: 2.5rem;
     margin-top: 2rem;
     font-size: medium;
+    height: 3rem;
 }
 /* -----------------MAIN--section-3------↓↓↓↓↓------*/
 
@@ -248,7 +240,6 @@ h6{
 .column{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .top-card{
     width: 380px;
@@ -263,7 +254,6 @@ img{
 }
 .bottom-card{
     padding: 2.5rem;
-    
 }
 .card-1,
 .card-2,
@@ -272,17 +262,15 @@ img{
 .card-5,
 .card-6{
     width: 380px;
-    height: 550px;
     margin: 3rem;
 }
 /* -----------------MAIN--section-4------↓↓↓↓↓------*/
 .section-4{
-    width: 2000px;
-    margin-top: 10rem;
+    margin-top: 10rem; 
     margin-bottom: 10rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
 }
 .team-drop{
     margin-left: -23rem;
@@ -335,35 +323,44 @@ u{
     padding: 4rem;
     font-size: larger;
 }
-
-
 /* -----------------MAIN--section-6------↓↓↓↓↓------*/
 .section-6{
-    width: 2000px;
-    height: 310px;
-    background-color: rgba(22, 170, 8, 0.384);
+    background-color: var(--z-portadrobox);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:baseline;
+    width: 2000px;
+    color: rgb(97, 8, 43);
+    padding: 9rem;
+    font-size:23px;
+
 }
-.porta-drop{
-    width: 1437px;
-    height: 225px;
-    background-color: rgba(9, 48, 218, 0.384);
+.inizia-prova{
+    background-color: var(--z-white-header);
+    color: black;
+    width: 14rem;
+    margin-left: 9rem;
+    font-size: medium;
+    height: 2.5rem;
+    border: none;
+    
 }
 /* -----------------MAIN--section-7------↓↓↓↓↓------*/
 .section-7{
     width: 2000px;
-    height: 750px;
-    background-color: rgba(51, 163, 145, 0.308);
+    background-color:var(--z-designit);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .domande{
     width: 1437px;
-    height: 500px;
-    background-color: rgba(218, 9, 9, 0.384);
+    padding: 3rem;
+    font-size: 110%;
+    line-height: 5;
+    padding-left: 14rem;
+    padding-right: 16rem;
+    padding-bottom: 7rem;
 }
 /* -----------------FOOTER------↓↓↓↓↓------*/
 
