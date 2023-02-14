@@ -152,12 +152,12 @@ body {
     height: 6600px;
     width: 100%;
 }
+/* -----------------chekbox-text-------↓↓↓↓↓------*/
 .chekbox-text {
     padding-top: 5rem;
     padding-left: 2rem;
-
 }
-span{
+.chekbox-text> span{
     margin-right: 0.5rem;
     padding-right: 1rem;
 }
@@ -166,20 +166,20 @@ span{
     height: 1800px;
     width: 1437px;
 }
-
+/* -----------------small--container-------↓↓↓↓↓------*/
 .small-container{
     height: 1322px;
     background-color: var(--z-white-header);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 .col-1{
     height: 973px;
     width: 25rem;
     border: 1px solid black;
     margin-top: 4rem;
+    
 }
 .col-2{
     height: 973px;
