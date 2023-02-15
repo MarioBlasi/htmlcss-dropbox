@@ -343,6 +343,11 @@ img{
     padding: 4rem;
     font-size: larger;
 }
+.wipro-text{
+    border-top: 2px solid lightgray;
+    width: 100px;
+    margin-bottom: 4rem;
+}
 /* -----------------MAIN--section-6------↓↓↓↓↓------*/
 .section-6{
     background-color: var(--z-portadrobox);
@@ -373,17 +378,26 @@ img{
 }
 .domande{
     width: 1437px;
-    padding: 3rem;
-    font-size: 110%;
-    line-height: 5;
+    padding: 5rem;
+    font-size: 100%;
+    line-height: 7;
     padding-left: 14rem;
     padding-right: 16rem;
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+.dx{
+    float: left;
+    border-bottom: 1px solid black;
+}
+h5{
+    border-top: 1px solid black;
+    width: 850px;
 }
 /* -----------------FOOTER------↓↓↓↓↓------*/
 
 #app_footer{
-    background-color: black;
+    background-color:black;
 }
 .top_footer{
     padding-bottom: 5rem;
@@ -403,10 +417,15 @@ ul{
     font-size: medium;
 }
 .bottom_footer{
-    width: 200px;
-    height: 100px;
-    margin-top: -5rem;
-    margin-left: -70rem;
+    height:150px;
+    width: 150px;
+    margin-top: -4rem;
     border-top: 3px solid white;
-    padding-top: 3rem;
+    margin-left: -73rem;
+    color: white;
+    
 }  
+.icon-footer{
+   margin-top: 3rem;
+   
+}
