@@ -302,12 +302,19 @@ img{
 }
 
 /* -----------------MAIN--section-5------↓↓↓↓↓------*/
+
 .section-5{
     width: 2000px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
+/*[class^="small-cube-"] >img {
+     max-width: 100%;
+    max-height: 100%;
+}*/
+ 
 .cube-1,
 .cube-2,
 .cube-3 {
@@ -320,6 +327,7 @@ img{
 {
     width:  330px;
     height: 330px;
+   
 }
 /* --------------small--cube--colors ------↓↓↓↓↓------*/
 .small-cube-1{
@@ -327,9 +335,17 @@ img{
     background-color: var(--z-green-opaco);
     
 }
-.small-cube-2{ background-color:var(--z-wine);}   
-.small-cube-3{ background-color:var(--z-sky);}
-.small-cube-4{ background-color:var(--z-red);}
+.small-cube-2{ background-color:var(--z-wine);
+    background-image: url(/img/arizona_state_university.svg);
+}   
+.small-cube-3{ background-color:var(--z-sky);
+    background-image: url(/img/university_of_florida.svg);
+
+}
+.small-cube-4{ background-color:var(--z-red);
+    background-image: url(/img/topps.svg);
+   
+}
 .small-cube-5{ background-color:var(--z-reddx);}
 .small-cube-6{ background-color:var(--z-celestedx);}
 .small-cube-7{ background-color:var(--z-bluedx);}
@@ -386,16 +402,14 @@ img{
 
 #app_footer{
     background-color: black;
+    
 }
 .top_footer{
-    width: 2000px;
-    height: 600px;
-
+    padding-bottom: 5rem;
     display: flex;
-    justify-content: center;
+    
 }
 [class^="vertical_box_"]{
-    height: 600px;
     width: 300px;
     margin-top: 3rem;
     color: white;
@@ -407,8 +421,8 @@ h1{
 ul{
     list-style-type: none;
     font-size: medium;
-    
 }
+
 .bottom_footer{
     width: 200px;
     height: 100px;
@@ -416,4 +430,4 @@ ul{
     margin-left: -70rem;
     border-top: 3px solid white;
     padding-top: 3rem;
-}
+}  
