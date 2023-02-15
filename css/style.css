@@ -311,113 +311,53 @@ img{
     width:  332px;
     height: 332px;
     display: flex;
-}
-
-[class^="logo-"]
-{
-  
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
 /* --------------small--cube--colors ------↓↓↓↓↓------*/
 .small-cube-1 {
     border: 1rem solid var(--z-green-chiaro);
     background-color: var(--z-green-opaco);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
+    
   }
-  .small-cube-1 img {
+
+.small-cube-1 img, 
+.small-cube-2 img,
+.small-cube-3 img,
+.small-cube-4 img,
+.small-cube-5 img,
+.small-cube-6 img,
+.small-cube-7 img,
+.small-cube-8 img
+{
     filter: invert(1);
     padding: 60px;
-  }
+}
   
-  .small-cube-2 {
+.small-cube-2 {
     background-color: var(--z-wine);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-2 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-3 {
+}
+.small-cube-3 {
     background-color: var(--z-sky);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-3 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-4 {
+}
+.small-cube-4 {
     background-color: var(--z-red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-4 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-5 {
+}
+.small-cube-5 {
     background-color: var(--z-reddx);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-5 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-6 {
+}
+.small-cube-6 {
     background-color: var(--z-celestedx);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-6 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-7 {
+}
+.small-cube-7 {
     background-color: var(--z-bluedx);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-7 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-  
-  .small-cube-8 {
+}
+.small-cube-8 {
     background-color: var(--z-yellowdx);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .small-cube-8 img {
-    filter: invert(1);
-    padding: 60px;
-  }
-
+}
 /*----------Cube-2----↓↓↓↓↓--------------*/
-
 
 .cube-text{
     background-repeat: no-repeat;
