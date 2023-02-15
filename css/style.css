@@ -171,10 +171,10 @@ body {
     width: 100%;
     line-height:40px;
 }
-.box {
+.box{
     border: 1px solid lightgray;
     flex: 1;
-    padding:  3rem;
+    padding:  3.5rem;
     text-align:left;
     margin: 1rem;
     background-color: var(--z-white-header);
@@ -197,20 +197,20 @@ body {
     margin-bottom: 5rem;
 }
 /* -----------------horizontal-container-------↓↓↓↓↓------*/
-.box-v{
+.box-v {
     border: 1px solid lightgray;
     flex: 1;
-    padding:  3rem;
+    padding:  4.5rem;
     text-align:left;
     margin: 1rem;
     background-color: var(--z-white-header);
     position: relative;
-    line-height:20px;
+    line-height:30px;
 }
 
 .contatta-btn{
     margin-left: 46.5rem;
-    margin-top:-rem;
+    margin-top:-10rem;
 }
 .horizontal-container {
     display: flex;
