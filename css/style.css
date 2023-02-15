@@ -304,11 +304,8 @@ img{
 /* -----------------MAIN--section-5------↓↓↓↓↓------*/
 
 .section-5{
-    width: 2000px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    align-items: center;
 }
 /*[class^="small-cube-"] >img {
      max-width: 100%;
@@ -318,7 +315,7 @@ img{
 .cube-1,
 .cube-2,
 .cube-3 {
-    width:  664px;
+    width:  100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -327,34 +324,47 @@ img{
 {
     width:  330px;
     height: 330px;
-   
+    background-repeat: no-repeat;
+    
 }
 /* --------------small--cube--colors ------↓↓↓↓↓------*/
 .small-cube-1{
     border:1rem solid var(--z-green-chiaro);
     background-color: var(--z-green-opaco);
+    background-image: url(/img/designit.svg);
     
 }
 .small-cube-2{ background-color:var(--z-wine);
     background-image: url(/img/arizona_state_university.svg);
+    
 }   
 .small-cube-3{ background-color:var(--z-sky);
     background-image: url(/img/university_of_florida.svg);
-
+   
 }
 .small-cube-4{ background-color:var(--z-red);
     background-image: url(/img/topps.svg);
    
 }
-.small-cube-5{ background-color:var(--z-reddx);}
-.small-cube-6{ background-color:var(--z-celestedx);}
-.small-cube-7{ background-color:var(--z-bluedx);}
-.small-cube-8{ background-color:var(--z-yellowdx);}
+.small-cube-5{ background-color:var(--z-reddx);
+    background-image: url(/img/world_bicycle_relief.svg);
+}
+.small-cube-6{ background-color:var(--z-celestedx);
+    background-image: url(/img/hearst_corp.svg);
+}
+.small-cube-7{ background-color:var(--z-bluedx);
+    background-image: url(/img/lonely_planet.svg);
+}
+.small-cube-8{ background-color:var(--z-yellowdx);
+    background-image: url(/img/clear_channel.svg);
+}
 <!----------Cube-2----↓↓↓↓↓-------------->
 .cube-2{
     background-color: var(--z-designit);
+    
 }
 .cube-text{
+    background-repeat: no-repeat;
     margin-left: 2rem;
     padding: 4rem;
     font-size: larger;
