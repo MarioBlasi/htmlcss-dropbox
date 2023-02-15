@@ -34,7 +34,6 @@ body {
     height: 5rem;
     width: 2000px;
     background-color:var(--z-white-header);
-    
 }
 .bar{
     width: 2000px;
@@ -96,18 +95,16 @@ body {
 
 /* -----------------NAV--section-------↓↓↓↓↓------*/
 #app_nav{
-    height: 810px;
     width: 100%;
     background-color: var(--z-celeste-nav)
 }
 .box-one{
-    height: 830px;
+    
     width: 1437px;
 }
 .title{
     margin-top: 3rem;
     font-weight: bold;
-    height: 297px;
     text-align: center;
     font-size: 360%;
 }
@@ -165,12 +162,12 @@ body {
 .text-c{
     text-align: center;
     border: 1px solid lightgray;
-    position: absolute;
     top: 0;
     left: 0;
-    height: 2.5rem;
+    height: 3.5rem;
     width: 100%;
     line-height:40px;
+    position: absolute;
 }
 
 .box{
@@ -248,9 +245,6 @@ body {
     height: 3rem;
 }
 
-
-
-
 /* -----------------MAIN--section-3------↓↓↓↓↓------*/
 
 .section-3{
@@ -274,7 +268,6 @@ img{
     margin-left: -3rem;
     margin-top: -2.5rem;
     max-width: 120%;
-    
     padding-bottom: 3rem;
 }
 .bottom-card{
@@ -331,32 +324,20 @@ img{
 .small-cube-1{
     border:1rem solid var(--z-green-chiaro);
     background-color: var(--z-green-opaco);
-    background-image: url(/img/designit.svg);
-    
 }
 .small-cube-2{ background-color:var(--z-wine);
-    background-image: url(/img/arizona_state_university.svg);
-    
 }   
 .small-cube-3{ background-color:var(--z-sky);
-    background-image: url(/img/university_of_florida.svg);
-   
 }
 .small-cube-4{ background-color:var(--z-red);
-    background-image: url(/img/topps.svg);
-   
 }
 .small-cube-5{ background-color:var(--z-reddx);
-    background-image: url(/img/world_bicycle_relief.svg);
 }
 .small-cube-6{ background-color:var(--z-celestedx);
-    background-image: url(/img/hearst_corp.svg);
 }
 .small-cube-7{ background-color:var(--z-bluedx);
-    background-image: url(/img/lonely_planet.svg);
 }
 .small-cube-8{ background-color:var(--z-yellowdx);
-    background-image: url(/img/clear_channel.svg);
 }
 <!----------Cube-2----↓↓↓↓↓-------------->
 .cube-2{
