@@ -171,7 +171,7 @@ body {
 }
 
 .sottotitolo{
-    padding: 1.5rem;
+    padding: 4rem;
 }
 .box{
     border: 1px solid lightgray;
@@ -181,7 +181,7 @@ body {
     background-color: var(--z-white-header);
     position: relative;
     line-height:35px;
-    padding: 1.5rem;
+    
 }
 
 .vertical-container {
@@ -203,7 +203,8 @@ body {
 .box-v {
     border: 1px solid lightgray;
     flex: 1;
-    padding-top:2rem;
+    padding-top:1rem;
+    padding: 2rem;
     text-align:left;
     margin: 1rem;
     background-color: var(--z-white-header);
@@ -268,13 +269,16 @@ body {
     margin-bottom: -5rem;
 }
 img{
-    margin-left: -3rem;
-    margin-top: -2.5rem;
+  
     max-width: 100%;
-    padding-bottom: 3rem;
+    
 }
+
+
 .bottom-card{
-    padding: 2.5rem;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
 }
 .card-1,
 .card-2,
@@ -303,6 +307,8 @@ img{
 .section-5{
     display: flex;
     align-items: center;
+   
+    
 }
 /*[class^="small-cube-"] >img {
      max-width: 100%;
@@ -315,19 +321,22 @@ img{
     width:100%;
     display: flex;
     flex-wrap: wrap;
-    
 }
 /* --------------small---CUBE ------↓↓↓↓↓------*/
-[class^="small-cube-"]
+[class^="small-cube-"]/* --------------classe in comune per tutti sti cazzo di quadrati -----↓↓↓↓↓------*/
 {
     width:  332px;
     height: 332px;
     background-repeat: no-repeat;
+    /*object-fit:contain;*/
+    
 }
+
 /* --------------small--cube--colors ------↓↓↓↓↓------*/
 .small-cube-1{
     border:1rem solid var(--z-green-chiaro);
     background-color: var(--z-green-opaco);
+    
 }
 .small-cube-2{ background-color:var(--z-wine);
 }   
