@@ -337,6 +337,9 @@ img{
     background-color: var(--z-yellowdx);
 }
 /*----------Cube-2----↓↓↓↓↓--------------*/
+.cube-2{
+    background-color: var(--z-designit);
+}
 .cube-text{
     background-repeat: no-repeat;
     margin-left: 2rem;
