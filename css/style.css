@@ -153,59 +153,72 @@ body {
 }
 /* -----------------chekbox-text-------↓↓↓↓↓------*/
 .chekbox-text {
+    padding-bottom:4rem;
     padding-top: 5rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .chekbox-text> span{
     margin-right: 0.5rem;
     padding-right: 1rem;
 }
-.container{
-    margin-bottom: 8rem;
-    width: 1437px;
-}
-/* -----------------small--container-------↓↓↓↓↓------*/
-.small-container{
-    background-color: var(--z-white-header);
-    display: flex;
-    justify-content: space-around;
-}
-.col-1,
-.col-2,
-.col-3{
-    width: 25rem;
-    border: 1px solid black;
-    margin-top: 2rem;
-    padding: 3rem;
-    line-height:45px;
-}
-br{
-    width: 2rem;
-    height: 5rem;
-}
-h6{  
-    font-size: medium;
+.text-c{
     text-align: center;
-    line-height:60px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 100%;
+    line-height:40px;
 }
-.col-4{
-    height: 20rem;
-    width: 95%;
-    border: 1px solid black;
-    margin-top: 3rem;
-    margin-left: 2.2rem;
-    line-height: 35px;
-    padding: 2rem;
-    padding-top: 6rem;
+.box {
+    border: 1px solid lightgray;
+    flex: 1;
+    padding:  3rem;
+    text-align:left;
+    margin: 1rem;
+    background-color: var(--z-white-header);
+    position: relative;
+    line-height:40px;
 }
+
+.vertical-container {
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+}
+.contenitore{
+    max-height: 100%;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+/* -----------------horizontal-container-------↓↓↓↓↓------*/
+.box-v{
+    border: 1px solid lightgray;
+    flex: 1;
+    padding:  3rem;
+    text-align:left;
+    margin: 1rem;
+    background-color: var(--z-white-header);
+    position: relative;
+    line-height:20px;
+}
+
 .contatta-btn{
-    margin-left: 65rem;
-    margin-top:-14rem;
+    margin-left: 46.5rem;
+    margin-top:-rem;
+}
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
 }
 
 /* -----------------MAIN--section-2------↓↓↓↓↓------*/
-
-
 
 .section-2{
     width: 1437px;
@@ -300,15 +313,15 @@ u{
 .cube-1,
 .cube-2,
 .cube-3 {
-    width:  665px;
+    width:  664px;
     display: flex;
     flex-wrap: wrap;
 }
 /* --------------small---CUBE ------↓↓↓↓↓------*/
 [class^="small-cube-"]
 {
-    width:  332px;
-    height: 333px;
+    width:  330px;
+    height: 330px;
 }
 /* --------------small--cube--colors ------↓↓↓↓↓------*/
 .small-cube-1{
