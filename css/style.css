@@ -159,7 +159,7 @@ body {
     padding-right: 1rem;
 }
 
-.text-c{
+.titolo{
     text-align: center;
     border: 1px solid lightgray;
     top: 0;
@@ -267,7 +267,7 @@ body {
 img{
     margin-left: -3rem;
     margin-top: -2.5rem;
-    max-width: 120%;
+    max-width: 100%;
     padding-bottom: 3rem;
 }
 .bottom-card{
@@ -281,6 +281,7 @@ img{
 .card-6{
     width: 380px;
     margin: 3rem;
+
 }
 /* -----------------MAIN--section-4------↓↓↓↓↓------*/
 .section-4{
