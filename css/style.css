@@ -7,7 +7,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     width: 2000px;
-    height: 7484px;
+  
 }
 
 :root{
@@ -150,7 +150,6 @@ body {
 
 #app_main{
     width: 100%;
-    
 }
 /* -----------------chekbox-text-------↓↓↓↓↓------*/
 .chekbox-text {
