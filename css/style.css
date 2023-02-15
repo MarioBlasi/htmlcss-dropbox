@@ -150,6 +150,7 @@ body {
 
 #app_main{
     width: 100%;
+    
 }
 /* -----------------chekbox-text-------↓↓↓↓↓------*/
 .chekbox-text {
@@ -171,15 +172,16 @@ body {
     width: 100%;
     line-height:40px;
 }
+
 .box{
     border: 1px solid lightgray;
     flex: 1;
-    padding:  3.5rem;
+    padding: 3.5rem;
     text-align:left;
     margin: 1rem;
     background-color: var(--z-white-header);
     position: relative;
-    line-height:40px;
+    line-height:35px;
 }
 
 .vertical-container {
@@ -195,17 +197,18 @@ body {
     margin-left: 19rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+   
 }
 /* -----------------horizontal-container-------↓↓↓↓↓------*/
 .box-v {
     border: 1px solid lightgray;
     flex: 1;
-    padding:  4.5rem;
+    padding: 4.5rem;
     text-align:left;
     margin: 1rem;
     background-color: var(--z-white-header);
     position: relative;
-    line-height:30px;
+    line-height:20px;
 }
 
 .contatta-btn{
@@ -226,7 +229,7 @@ body {
     flex-direction: row;
 }
 .left-image{
-    box-sizing: content-box;
+    
     width: 100%;
     background-image: url(/img/partner.png);
     margin-left: 2rem;
@@ -271,7 +274,7 @@ img{
     margin-left: -3rem;
     margin-top: -2.5rem;
     max-width: 120%;
-    max-height: 120%;
+    
     padding-bottom: 3rem;
 }
 .bottom-card{
@@ -290,9 +293,6 @@ img{
 .section-4{
     margin-top: 10rem; 
     margin-bottom: 10rem;
-    display: flex;
-    justify-content: center;
-   
 }
 .team-drop{
     margin-left: -23rem;
@@ -300,9 +300,7 @@ img{
     font-size:23px;
     text-align: left;
 }
-u{
- text:var(--z--blue-button)
-}
+
 /* -----------------MAIN--section-5------↓↓↓↓↓------*/
 .section-5{
     width: 2000px;
